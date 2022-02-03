@@ -13,7 +13,7 @@ public class MagicSquare {
 		System.out.println("Test 3: " + isMagic(square3));
 		System.out.println("Test 4: " + isMagic(square4));
 		System.out.println("Test 5: " + isMagic(square5));
-		System.out.println("Test 5: " + isMagic(square6));
+		System.out.println("Test 6: " + isMagic(square6));
 
 	}
 
