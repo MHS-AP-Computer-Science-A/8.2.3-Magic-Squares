@@ -5,11 +5,11 @@ public class MagicSquare {
      *
      * Algorithm:
      * 1. Compute the sum of the first row and store it as the target sum.
-     * 2. Check that every remaining row has the same sum.
+     * 2. Check that every remaining row sum matches the target sum.
      *    - If any row sum is different, return false.
-     * 3. Check that every column has the same sum.
+     * 3. Check that every column sum matches the target sum.
      *    - If any column sum is different, return false.
-     * 4. Check that both diagonals have the same sum as the target.
+     * 4. Check that both diagonals sum matche the target sum.
      *    - If either diagonal is different, return false.
      * 5. If all checks pass, return true.
      */
@@ -107,3 +107,4 @@ public class MagicSquare {
         System.out.println("Not magic (expected false): " + isMagic(notMagic));
     }
 }
+
